@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Стальметпром</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <!--slick-->
+    <link href="libs/slick-1.6.0/slick/slick.css" rel="stylesheet">
+    <link href="libs/slick-1.6.0/slick/slick-theme.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/st_style.css">
+    <link rel="stylesheet" href="css/st_media.css">
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="libs/slick-1.6.0/slick/slick.min.js"></script>
+    <script src="js/st_main.js"></script>
+</head>
+<body id="confirmation" class="confirmation">
+
+<header class="clearfix">
+    <div class="header-inner">
+        <nav class="nav main-menu" data-element="toggle-nav">
+            <ul class="nav__list menu">
+                <li class="nav__item"><a class="nav__link" href="#">О компании</a></li>
+                <li class="active nav__item">
+                    <a class="nav__link nav__link--plus" data-behaviour="toggle-link-icon" href="#">Каталог</a>
+                    <ul class="nav__sub-list menu" data-behaviour="toggle-sub-menu">
+                        <li class="nav__sub-item"><a class="nav__link"  href="#">item1</a></li>
+                        <li class="nav__sub-item"><a class="nav__link" href="#">item2</a></li>
+                        <li class="nav__sub-item"><a class="nav__link" href="#">item3</a></li>
+                    </ul>
+                </li>
+                <li class="nav__item"><a class="nav__link" href="#">Прайслист</a></li>
+                <li class="nav__item"><a class="nav__link" href="#">Доставка</a></li>
+                <li class="nav__item"><a class="nav__link" href="#">Контакты</a></li>
+            </ul>
+        </nav>
+        <div class="button-menu">
+            <div class="menu-icon" data-behaviour="toggle-menu-icon">
+                <span class="menu-icon__bar"></span>
+            </div>
+            <span class="menu-name">Меню</span>
+        </div>
+
+        <div class="logo">
+            <a href="#"><img src="images/logo.png" alt="logo"></a>
+        </div>
+        <nav class="main-menu">
+            <ul class="menu">
+                <li><a href="#">О компании</a></li>
+                <li><a  class="active" href="#">Каталог</a></li>
+                <li><a href="#">Прайслист</a></li>
+                <li><a href="#">Доставка</a></li>
+                <li><a href="#">Контакты</a></li>
+            </ul>
+        </nav>
+        <div class="contacts">
+            <span>Отдел продаж</span>
+            <span class="num-phone">+7(495)422-44-24</span>
+        </div>
+        <div class="feedback">
+            <a href="#"><img src="images/phone.png" alt="img">Перезвонить мне</a>
+            <a href="#"><img src="images/ordersform.png" alt="img">Заявка на заказ металла</a>
+        </div>
+    </div>
+    <div class="linc">
+        <a href="#"><img src="images/priselist.png" alt="img">
+            <span>Скачать прайс-лист</span>
+        </a>
+    </div>
+</header>
+<article>
+    <div class="order-table">
+        <h2>Подтверждение заказа</h2>
+        <table>
+            <thead>
+            <tr>
+                <td>Категория</td>
+                <td>Наименование</td>
+                <td>Характеристика</td>
+                <td>Цена(руб)</td>
+                <td>Вес(тн)</td>
+                <td>Сумма(руб)</td>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Арматура</td>
+                <td>Арматура А1 6 ГОСТ 5781-82 / 6м</td>
+                <td>ст3сп/пс ГОСТ 5781-82 бухты</td>
+                <td>42000</td>
+                <td>150</td>
+                <td>6225000</td>
+            </tr>
+            <tr>
+                <td>Труба</td>
+                <td>Труба А16 ГОСТ 5781-82 / 6м </td>
+                <td>ст3сп/пс ГОСТ 5781-82 бухты</td>
+                <td>42000</td>
+                <td>150</td>
+                <td>6225000</td>
+            </tr>
+            </tbody>
+            <tfoot>
+            <tr>
+                <td colspan="5" class="text-right">Общая сумма заказа(руб):</td>
+                <td>12450000</td>
+            </tr>
+            </tfoot>
+        </table>
+    </div>
+    <div class="order-table media-360">
+        <h2>Подтверждение заказа</h2>
+        <table>
+            <tbody>
+            <tr class="first">
+                <td colspan="1">Категория</td>
+                <td colspan="3">Арматура</td>
+            </tr>
+            <tr>
+                <td colspan="1">Наименование</td>
+                <td colspan="3">Арматура А1 6 ГОСТ 5781-82 / 6м</td>
+            </tr>
+            <tr>
+                <td colspan="1">Характеристика</td>
+                <td colspan="3">ст3сп/пс ГОСТ 5781-82 бухты</td>
+            </tr>
+            <tr>
+                <td colspan="1">Цена(руб)</td>
+                <td colspan="3">42000</td>
+            </tr>
+            <tr>
+                <td colspan="1">Вес(тн)</td>
+                <td colspan="3">150</td>
+            </tr>
+            <tr>
+                <td colspan="1">Сумма(руб)</td>
+                <td colspan="3">6225000</td>
+            </tr>
+            <tr class="first">
+                <td colspan="1">Категория</td>
+                <td colspan="3">Труба</td>
+            </tr>
+            <tr>
+                <td colspan="1">Наименование</td>
+                <td colspan="3">Труба А16 ГОСТ 5781-82 / 6м </td>
+            </tr>
+            <tr>
+                <td colspan="1">Характеристика</td>
+                <td colspan="3">ст3сп/пс ГОСТ 5781-82 бухты</td>
+            </tr>
+            <tr>
+                <td colspan="1">Цена(руб)</td>
+                <td colspan="3">42000</td>
+            </tr>
+            <tr>
+                <td colspan="1">Вес(тн)</td>
+                <td colspan="3">150</td>
+            </tr>
+            <tr>
+                <td colspan="1">Сумма(руб)</td>
+                <td colspan="3">6225000</td>
+            </tr>
+            </tbody>
+        </table>
+        <table>
+                <tfoot>
+            <tr>
+                <td class="text-right">Общая сумма заказа(руб):</td>
+                <td class="text-right">12450000</td>
+            </tr>
+            </tfoot>
+        </table>
+    </div>
+    <div class="feedbackform clearfix">
+        <h2>Краткая информация</h2>
+        <form action="">
+            <div class="flex-cont">
+                <div class="flex-item">
+                    <label>Фамилия, имя, отчество:</label>
+                    <input  type="text">
+                </div>
+                <div class="flex-item">
+                    <label>Название организации:</label>
+                    <input  type="text">
+                </div>
+                <div class="flex-item">
+                    <label>E-mail:</label>
+                    <input type="text">
+                </div>
+                <div class="flex-item">
+                    <label>Адрес:</label>
+                    <input type="text">
+                </div>
+                <div class="flex-item">
+                    <label>Номер телефона:</label>
+                    <input type="text">
+                </div>
+                <div class="flex-item flex-cont">
+                    <label>
+                        <input class="checkbox" type="checkbox" name="checkbox-test">
+                        <span class="checkbox-custom"></span>
+                    </label>
+                    <span class="label">Подтверждаю свое согласие на <a href="#">обработку персональных данных</a></span>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div class="row">
+                    <input  type="submit" value="Оформить заказ">
+                    <div class="manager">
+                        <p>По всем вопросам вы можете обратиться к своему <a href="#"> персональному менеджеру</a></p>
+                    </div>
+                </div>
+            </div>
+
+
+        </form>
+    </div>
+    <div class="screen screen-3 clearfix">
+        <div class="column-left contacts">
+            <h2>
+                Контакты
+            </h2>
+            <h4>Адрес:</h4>
+            <p>125009, г.Москва, <br>
+                ул.Тверская, д.12, стр. 8 <br>
+                (юридический и фактический адрес)</p>
+            <h4>Телефон:</h4>
+            <p>+7(495)504-25-06</p>
+            <h4>E_male:</h4>
+            <p>info@dipos.ru</p>
+            <h4>Отдел продаж:</h4>
+            <p>+7(495)555-51-01</p>
+        </div>
+        <div class="column-right map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d606.0967778254628!2d37.60883276669827!3d55.764084559960274!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54a46b695b08f%3A0x5e895e0d8de444fe!2z0KLQstC10YDRgdC60LDRjyDRg9C7LiwgMTLRgTgsINCc0L7RgdC60LLQsCwgMTI1MDA5!5e0!3m2!1sru!2sru!4v1506086506855" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+    </div>
+</article>
+<footer class="clearfix">
+    <div class="column-left h2">
+        <h2>Обратная связь</h2>
+    </div>
+    <div class="column-right map">
+        <form action="">
+            <div class="column-left">
+                <input  type="text" placeholder="Имя, фамилия">
+                <input type="text" placeholder="E-mail">
+            </div>
+            <div class="column-right">
+                <textarea name="comment" placeholder="Текст сообщения" cols="40" rows="3"></textarea>
+            </div>
+            <div class="column-left checkbox-holder">
+                <input type="checkbox"><span>Подтверждаю свое согласие на обработку персональных данных</span>
+            </div>
+            <div class="column-right">
+                <input  type="submit" value="Отправить">
+            </div>
+        </form>
+    </div>
+</footer>
+</body>
+</html>
