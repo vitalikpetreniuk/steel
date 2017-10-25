@@ -68,10 +68,29 @@
         -ms-flex-pack: center;
         justify-content: center;
     }
+    header .header-inner {
+        padding: 16px;
+        height: 100%;
+        margin-bottom: 16px;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+    }
 }
 @media(min-width:1440px){
     body{
         line-height: 1.4;
+    }
+    nav.main-menu li {
+        padding:16px 0;
     }
     body,
     .manager,
@@ -119,6 +138,12 @@
     .catalogue footer .checkbox-holder {
         margin-left: 10px;
     }
+    header .header-inner {
+        padding: 16px;
+        height: auto;
+        display: block;
+    }
+
 
 }
 @media(max-width:1360px){
@@ -204,6 +229,7 @@
         padding: 26px;
         padding-bottom: 17px;
         border-top: none;
+        margin: 0;
     }
     header .linc img {
         padding-right: 0;
@@ -608,6 +634,7 @@
 }
 
 @media(max-width:767px){
+
     .pricelist .title a.st-btn {
         width: 100%;
     }
@@ -714,8 +741,12 @@
         margin-left: 0;
         margin-top: 100px;
     }
+    .screen-2 .advantages {
+        display: block;
+    }
     .screen-2 .advantages .item {
         padding: 10px 0 10px 10px;
+        overflow: hidden;
     }
     .screen-2 .advantages .image img {
         margin-left: 0;
